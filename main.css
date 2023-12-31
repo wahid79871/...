@@ -24,7 +24,6 @@ p {
     font-size: 24px;
 }
 div {
-    align-content: center;
     color: rgb(96, 80, 80);
     padding-top: 10px;
     padding-bottom: 10px; 
@@ -32,6 +31,7 @@ div {
     padding-right: 5px;
     width: 100%;
     height: auto;
+
     animation: example 5s linear 1s infinite alternate;
     }
 @keyframes example {
@@ -39,19 +39,35 @@ div {
     25%  {background-color:rgb(179, 179, 127); left:50%; top:0px;}
     50% {background-color:rgb(59, 76, 71); left:25%; top:0px;}
     75% {background-color:rgb(77, 77, 45); left:0%; top:0px;}
-    100%  {background-color:rgb(151, 79, 79); left:25%; top:0px;}
+    100%  {background-color:rgb(91, 110, 97); left:25%; top:0px;}
                     }
 button {
-    padding: 40px 10px;
+    height: 40px;
+    width: 100px;
     color: black;
     background-color: skyblue;
 }
+
 button:hover {
-    background-color: white; /* White */
-    color: #04AA6D; /* Green */
+    background-color: white; 
+    color: #04AA6D;
+
   }
   
 img {
+
+    display: block;
+    margin: auto;
+}
+img:hover{
     width: 100%;
     height: 100%;
+    display: block;
+    margin: auto;
+
+}
+object {
+    display: block;
+    margin: auto;
+    
 }
